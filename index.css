@@ -1,0 +1,815 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+:root {
+  --blue: #3464b3;
+  --white: #fff;
+  --sky: rgb(14, 185, 236);
+  --grey: #f5f5f5;
+  --black1: #222;
+  --black2: #999;
+  --darkblue: rgb(20, 45, 94);
+}
+.forDesktop {
+  display: block;
+}
+.forMobile {
+  display: none;
+}
+/* Navbar */
+.navbar .navbar-brand img {
+  width: 300px;
+  height: auto;
+  margin-top: 10px;
+}
+.navbar .nav-link {
+  color: var(--black1);
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: 0.5s;
+  margin-left: 30px;
+  text-align: center;
+}
+.navbar .navbar-nav {
+  margin-left: 40px;
+}
+.navbar .nav-link:hover {
+  color: var(--blue);
+}
+.navbar .btn {
+  width: 200px;
+  padding: 10px;
+  box-shadow: 0 0 10px 0 hsla(0, 0%, 20%, 0.2);
+  font-weight: 600;
+  color: var(--blue);
+  transition: 0.3s;
+  border-radius: 50px;
+  margin-left: 130px;
+}
+.navbar .btn:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
+/* banner */
+#manu img {
+  width: 100%;
+  height: 700px;
+  background-size: 100vh;
+}
+#manu .overlay {
+  width: 85%;
+  height: 750px;
+  position: absolute;
+  mix-blend-mode: overlay;
+}
+#manu .row {
+  position: absolute;
+  margin-top: 80px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+#manu h2 {
+  font-size: 3.3em;
+  font-weight: 600;
+  color: var(--white);
+}
+#manu #line {
+  width: 250px;
+  height: 20px;
+  margin-left: 250px;
+  margin-top: -20px;
+}
+#manu .manu-btn {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+#manu .btn {
+  width: 200px;
+  padding: 10px;
+  font-weight: 600;
+  color: var(--white);
+  transition: 0.3s;
+  border: 2px solid var(--white);
+  border-radius: 50px;
+  margin-top: 50px;
+}
+#manu .btn:hover {
+  background-color: var(--white);
+  color: var(--blue);
+}
+/* Banner2 */
+.banner2 {
+  width: 100%;
+  height: 100%;
+  padding: 80px;
+  background-color: var(--darkblue);
+}
+.banner2 img {
+  width: 320px;
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.banner2 .line {
+  width: 5px;
+  height: 500px;
+  background-color: rgb(108, 136, 161);
+  position: absolute;
+  margin-left: 70px;
+  margin-top: -60px;
+}
+.banner2 h4 {
+  color: var(--white);
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+/* Banner3 */
+.banner3 {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding: 40px 50px 90px 40px;
+  background-color: var(--darkblue);
+}
+.banner3 #cards {
+  margin-top: 400px;
+}
+.banner3 h2 {
+  font-size: 3.5em;
+  font-weight: 600;
+  text-align: center;
+}
+.banner3 #cards img {
+  width: 100%;
+  height: 280px;
+  background-size: cover;
+}
+.banner3 h4 {
+  font-weight: 600;
+}
+.banner3 a {
+  color: #000;
+  position: absolute;
+  text-align: center;
+  margin-top: 4.5em;
+  margin-left: 1.5em;
+  text-decoration: underline;
+  font-size: 23px;
+  font-weight: 800;
+}
+#banner3 {
+  display: none;
+}
+#banner2 {
+  display: none;
+}
+/* Home */
+#home {
+  margin-top: 100px;
+}
+#home h3 {
+  font-size: 3em;
+  font-weight: 800;
+}
+#home h5 {
+  margin-top: 25px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+#home #logo {
+  width: 230px;
+  height: 200px;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+#home #logotext {
+  width: 230px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+#home p {
+  font-size: 0.9em;
+  text-align: left;
+  font-weight: 600;
+  margin-top: 30px;
+}
+#home h6 {
+  font-weight: 600;
+}
+#home #zoom {
+  width: 150px;
+}
+#home #classroom {
+  width: 150px;
+  margin-left: 40px;
+}
+#home #arrow1 {
+  transform: rotate(-48deg);
+  margin-left: 80px;
+}
+#home #laptop {
+  width: 1100px;
+  height: 650px;
+  background-size: 100%;
+  margin-top: 100px;
+}
+/* Features */
+#feature {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  margin-top: 100px;
+  padding: 50px;
+  background-color: var(--darkblue);
+  clip-path: polygon(0 0%, 100% 0, 100% 75%, 0% 100%);
+}
+#feature #cards {
+  margin-bottom: 250px;
+}
+#feature h2 {
+  font-size: 3.5em;
+  font-weight: 600;
+  text-align: center;
+}
+#feature .line {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#feature #cards img {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+#feature h4 {
+  font-weight: 600;
+}
+#feature a {
+  color: #000;
+  position: absolute;
+  text-align: center;
+  margin-top: 5em;
+  margin-left: 2em;
+  text-decoration: underline;
+  font-size: 23px;
+  font-weight: 800;
+}
+/* UseSums */
+#useSums h2 {
+  font-size: 3.3em;
+  font-weight: 600;
+  text-align: center;
+}
+#useSums h5 {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+}
+#useSums .arrow2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-top: 5px;
+}
+#useSums .img {
+  width: 100%;
+  height: 600px;
+}
+#useSums img {
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Access */
+#access .row {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+#access .col {
+  width: 640px;
+  height: 100%;
+  text-align: center;
+  background: var(--sky);
+  margin-top: 100px;
+  padding: 0px;
+}
+#access .col h3 {
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 60px;
+}
+#access .col p {
+  font-size: 1.8em;
+  font-weight: 500;
+  padding: 40px;
+  color: #fff;
+}
+#access #accessArrow {
+  transform: rotate(-58deg);
+  height: 120px;
+  position: absolute;
+  margin-left: 70px;
+  margin-top: -50px;
+}
+#access #accessImg {
+  width: 100%;
+  height: 480px;
+}
+#access #accessArrow2 {
+  height: 120px;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: -50px;
+}
+
+/* Access2 */
+#access2 {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  margin-top: 100px;
+  background-color: var(--blue);
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 85%);
+}
+#access2 h1 {
+  font-size: 3.6em;
+  font-weight: 600;
+  color: var(--white);
+  text-align: center;
+}
+#access2 .line {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#access2 h6 {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: var(--white);
+  margin-top: 30px;
+}
+#access2 img {
+  width: 120px;
+}
+#access2 h3 {
+  font-weight: 600;
+  color: var(--white);
+}
+#access2 p {
+  color: var(--white);
+  line-height: 20px;
+}
+#access2 #moreBtn {
+  width: 400px;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #000;
+  background-color: var(--white);
+  transition: 0.3s;
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#access2 #moreBtn:hover {
+  background-color: var(--blue);
+  color: var(--white);
+  border: 2px solid #fff;
+}
+#access2 .arrow {
+  position: absolute;
+  margin-left: 180px;
+  margin-top: -60px;
+}
+/* Integrated System */
+#system h1 {
+  font-size: 3.6em;
+  font-weight: 600;
+  text-align: center;
+}
+#system p {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+}
+#system #path {
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+}
+#system .d-block {
+  margin-left: auto;
+  margin-right: auto;
+}
+#system #icon {
+  color: black;
+}
+/* result */
+#result {
+  margin-top: 130px;
+}
+#result h1 {
+  font-size: 3.6em;
+  font-weight: 600;
+  text-align: center;
+}
+#result p {
+  text-align: center;
+  font-size: 1.8em;
+  margin-top: 20px;
+}
+#result #path {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+}
+#result .row img {
+  width: 230px;
+  height: 230px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#result a {
+  width: 230px;
+  height: 230px;
+  box-shadow: 0 0 10px 0 hsla(0, 0%, 20%, 0.2);
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 90px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+#result a:hover {
+  background-color: var(--blue);
+  color: var(--white) !important;
+}
+/* Clients */
+.clients {
+  width: 100%;
+  height: 100%;
+  background-color: var(--blue);
+  margin-top: 100px;
+  padding: 50px;
+  clip-path: polygon(0 0%, 100% 0, 100% 75%, 0% 100%);
+}
+.clients h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  color: var(--white);
+  font-weight: 600;
+}
+.clients #path {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: 150px;
+  margin-top: -10px;
+}
+.clients p {
+  font-size: 2rem;
+  text-align: center;
+  padding: 30px;
+  color: var(--white);
+  margin-bottom: 50px;
+}
+/* Cards */
+#card .card {
+  box-shadow: 0 0 10px 0 hsla(0, 0%, 20%, 0.2);
+  border: 0px;
+  padding: 25px;
+  margin-top: 80px;
+}
+#card img {
+  border-radius: 50%;
+}
+#card p {
+  font-size: 1rem;
+}
+#card h5 {
+  font-weight: 600;
+  margin-top: 50px;
+}
+#button .btn {
+  width: 400px;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+  background-color: var(--sky);
+  transition: 0.3s;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+#button .btn:hover {
+  background-color: rgb(32, 159, 197);
+}
+#button .arrow {
+  margin-left: 180px;
+  margin-top: -70px;
+}
+/* Footer */
+.p {
+  font-size: 1.2rem;
+}
+.footer {
+  width: 100%;
+  height: 100%;
+  background-color: var(--blue);
+}
+.footer .join {
+  width: 100%;
+  height: 100%;
+  background-color: var(--darkblue);
+  padding: 50px;
+}
+.footer .join h3 {
+  font-size: 2.3rem;
+  color: var(--white);
+  font-weight: 600;
+  text-align: center;
+  margin-top: 15px;
+}
+.footer .join input {
+  height: 70px;
+  font-size: 1.5rem;
+}
+.footer .join .btn {
+  width: 200px;
+  padding: 10px;
+  background-color: var(--sky);
+  color: var(--white);
+}
+.footer #sumserp {
+  background-color: rgb(39, 95, 158);
+  padding: 20px;
+}
+.footer .row h5 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--white);
+  margin-top: 50px;
+}
+.footer .row p {
+  font-size: 1.2rem;
+  color: lightgray;
+  font-weight: 600;
+  line-height: 40px;
+}
+.footer .social-icon {
+  margin-top: 30px;
+}
+.footer i {
+  font-size: 2.1rem;
+  padding: 5px;
+  color: lightgrey;
+}
+.footer .payment img {
+  width: 280px;
+}
+.footer a {
+  text-decoration: underline;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.footer .span h6 {
+  font-size: 1.2rem;
+}
+.bottomText {
+  text-align: right !important;
+}
+/* Mobile View */
+@media only screen and (max-width: 767px) {
+  .forDesktop {
+    display: none;
+  }
+  .forMobile {
+    display: block;
+  }
+  /* Navbar */
+  .navbar .nav-link {
+    margin-left: 0px;
+  }
+  #manu #line {
+    margin-top: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar .navbar-brand img {
+    width: 250px;
+  }
+  .navbar .nav-link {
+    margin-left: -20px;
+  }
+  .navbar .btn {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  #manu h2 {
+    font-size: 2em;
+  }
+  #manu img {
+    width: 100%;
+    height: 500px;
+    background-size: 100vh;
+  }
+  #manu .btn {
+    margin-top: 10px;
+  }
+  #home h3 {
+    font-size: 2em;
+  }
+  #home #arrow1 {
+    height: 70px;
+    margin-left: 10px;
+  }
+  #home #laptop {
+    width: 460px;
+    height: 300px;
+    margin-top: -50px;
+    margin-left: 10px;
+  }
+  #home h5 {
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+  #home #logos {
+    margin-top: -70px;
+    margin-left: 60px;
+  }
+  #feature {
+    clip-path: polygon(0 0%, 100% 0, 100% 90%, 0% 100%);
+  }
+  #feature #cards img {
+    height: 350px;
+  }
+  #feature a {
+    margin-top: 5.7em;
+    margin-left: 5.5em;
+    text-decoration: underline;
+    font-size: 23px;
+    font-weight: 800;
+  }
+  #useSums h2 {
+    font-size: 2.7em;
+  }
+  #useSums .row {
+    flex-direction: column-reverse;
+  }
+  #useSums .img {
+    height: 400px;
+  }
+  #access2 .last {
+    padding: 0px;
+    margin-bottom: 50px;
+    flex-direction: column-reverse;
+  }
+  #access2 #moreBtn {
+    width: 250px;
+    padding: 10px;
+    margin-top: 0px;
+    font-size: 1.3em;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #access2 .arrow {
+    height: 80px;
+    transform: rotateY(180deg);
+    margin-top: -90px;
+    margin-left: 0px;
+  }
+  #system #path {
+    width: 400px;
+  }
+  #system #icon {
+    width: 70px;
+  }
+  #button .row {
+    flex-direction: column-reverse;
+  }
+  #card img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  #card p {
+    text-align: center;
+  }
+  #card h5 {
+    text-align: center;
+  }
+  #button .btn {
+    width: 250px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #button .arrow {
+    height: 100px;
+    margin-left: auto;
+    display: block;
+    transform: rotate(-1deg);
+  }
+  #result p {
+    font-size: 1.6em;
+  }
+  .clients h1 {
+    font-size: 3rem;
+  }
+  .clients p {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 30px;
+    color: var(--white);
+    margin-bottom: 50px;
+  }
+  .clients #path {
+    width: 210px;
+    margin-left: 185px;
+    margin-top: -10px;
+  }
+  #result #path {
+    width: 300px;
+    height: 15px;
+  }
+  #result .row img {
+    width: 100px;
+    height: 100px;
+  }
+  #result a {
+    width: 100px;
+    height: 100px;
+    font-size: 1rem;
+    padding-top: 35px;
+  }
+  .footer .join input {
+    height: 60px;
+  }
+  .footer .join .btn {
+    width: 150px;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer .row h5 {
+    font-size: 1rem;
+  }
+  .footer .row p {
+    font-size: 1rem;
+  }
+  .footer .social-icon {
+    text-align: center;
+  }
+  .footer #sumserp {
+    margin-left: 30px;
+  }
+  .footer .payment p,
+  img,
+  h6 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+  }
+  .bottomText {
+    text-align: center !important;
+  }
+  .footer .span h6 {
+    font-size: 1rem;
+  }
+}
