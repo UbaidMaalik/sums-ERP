@@ -16,15 +16,15 @@
 </head>
 
 <body>
-  <?php require_once "./navbar.php"; ?>
+  <?php require_once "../navbar.php"; ?>
   <div id="banner1">
-    <?php require_once "./banner/banner.php"; ?>
+    <?php require_once "../banner/banner.php"; ?>
   </div>
   <div class="container banner2" id="banner2">
-    <?php require_once "./banner/banner2.php"; ?>
+    <?php require_once "../banner/banner2.php"; ?>
   </div>
   <div class="container banner3" id="banner3">
-    <?php require_once "./banner/banner3.php"; ?>
+    <?php require_once "../banner/banner3.php"; ?>
   </div>
 
   <div class="container" id="home">
@@ -39,8 +39,8 @@
     <div class="row">
       <div class="col-sm-2 forDesktop">
         <div id="logos">
-          <img src="../images/SUMS ONLY LOGO.png" id="logo">
-          <img src="../images/SUMS ONLY NAME.png" id="logotext">
+          <img src="./images/SUMS ONLY LOGO.png" id="logo">
+          <img src="./images/SUMS ONLY NAME.png" id="logotext">
           <p>COMPLETE MANAGEMENT SYSTEM FOR COLLEGE INSTITUTE/UNIVERSITY</p>
           <h6 class="mt-5">COMPITABLE WITH</h6>
           <div class="row">
@@ -336,7 +336,7 @@
       </div>
     </div>
   </div>
-  <?php require_once "./footer.php"; ?>
+  <?php require_once "../footer.php"; ?>
 </body>
 
 </html>

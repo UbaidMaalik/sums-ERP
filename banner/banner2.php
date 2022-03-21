@@ -14,14 +14,14 @@
     <div class="banner2">
         <div class="row">
             <div class="col-sm-5">
-                <img src="../images/BILL EX.png">
+                <img src="./images/BILL EX.png">
                 <h4>DOCUMENTATION</h4>
             </div>
             <div class="col-sm-2">
                 <div class="line"></div>
             </div>
             <div class="col-sm-5">
-                <img src="../images/BILLL E.png">
+                <img src="./images/BILLL E.png">
                 <h4>VIDEOS</h4>
             </div>
         </div>
