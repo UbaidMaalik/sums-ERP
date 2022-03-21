@@ -1,0 +1,125 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+:root {
+  --blue: #3464b3;
+  --white: #fff;
+  --sky: rgb(14, 185, 236);
+  --grey: #f5f5f5;
+  --black1: #222;
+  --black2: #999;
+  --darkblue: rgb(20, 45, 94);
+}
+.company {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  background-color: var(--sky);
+}
+.company h2 {
+  font-size: 3.3em;
+  font-weight: 600;
+  color: var(--white);
+  text-align: center;
+}
+.company #line {
+  width: 350px;
+  height: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: 150px;
+  margin-top: -15px;
+}
+.company p {
+  text-align: center;
+  color: var(--white);
+  font-size: 1.5rem;
+}
+.company .img {
+  width: 100%;
+  height: 100%;
+  margin-left: 100px;
+}
+.company .arrow2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-top: 50px;
+  margin-left: 90px;
+  text-align: center;
+  color: #fff;
+}
+.company .arrow2 img {
+  width: 80px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-top: 5px;
+  transform: rotateY(-180deg);
+}
+/* EVERTHING IN ONE PLACE */
+.place h5 {
+  font-weight: 700;
+}
+/* ------ */
+.place2 {
+  margin-top: 100px;
+}
+.place2 h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.place2 p {
+  font-size: 1.7rem;
+  margin-top: 20px;
+}
+.place2 #erp {
+  height: 500px;
+}
+.place2 #arrow {
+  height: 150px;
+  margin-left: 7.7rem;
+  margin-top: 7.7rem;
+  position: relative;
+}
+.place2 #erp5 {
+  position: absolute;
+  height: 170px;
+  margin-top: 2rem;
+  margin-left: 7.5rem;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 767px) {
+  .company h2 {
+    font-size: 2.4em;
+  }
+  .company #line {
+    width: 250px;
+    height: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .company p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .company .img {
+    margin-left: 0px;
+  }
+  .company .arrow2 {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  /* Place2 */
+  .place2 #erp {
+    height: 200px;
+  }
+}
