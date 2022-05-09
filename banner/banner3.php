@@ -13,21 +13,21 @@
 <body>
     <div class="banner3">
         <div class="row mt-5" id="cards">
-            <div class="col-sm-3 mt-5">
+            <div class="col-sm-3 mt-5 col-6">
                 <h4>TRACKING</h4>
                 <img src="./images/TRAC EX.png">
             </div>
-            <div class="col-sm-3 mt-5">
+            <div class="col-sm-3 mt-5 col-6">
                 <h4>BILLS</h4>
                 <img src="./images/BILL EX.png">
             </div>
-            <div class="col-sm-3 mt-5">
+            <div class="col-sm-3 mt-5 col-6">
                 <h4>DOCUMENTS</h4>
                 <img src="./images/BILLL E.png">
             </div>
-            <div class="col-sm-3 mt-5">
+            <div class="col-sm-3 mt-5 col-6">
                 <h4>MORE</h4>
-                <a href="#">SEE <br> ALL FEATURES</a href="#">
+                <a href="../pages/features.php">SEE <br> ALL FEATURES</a>
                 <img src="./images/more.png">
             </div>
         </div>

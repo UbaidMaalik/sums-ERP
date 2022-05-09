@@ -22,12 +22,12 @@
     <div class="container company">
         <div class="row justify-content-center">
             <div class="col-sm-12 col-md-10">
-                <h2>All in one <br><span>MANAGEMENT SOFTWARE</span></h2>
-                <img src="./images/line.png" id="line">
-                <p>Quick overview video, show that what SUMS-ERP can do. <br>Watch here!</p>
+                <h2>ACADEMICS</h2>
+                <img src="./images/line.png" id="academicline">
+                <p class="mt-5">Quick overview video, show that what SUMS-ERP can do. <br>Watch here!</p>
             </div>
             <div class="row justify-content-center">
-                <div class="col-sm-8 mt-3 col-12">
+                <div class="col-sm-8 mt-5 col-12">
                     <img src="./images/Company/Scroll Group 3.png" class="img">
                 </div>
                 <div class="col-sm-2">
@@ -162,16 +162,16 @@
             <div class="col-sm-5 col-10 text">
                 <h3>Establish Connectivity</h3>
                 <p>
-                    This is a centralized software on which everyone is connected
-                    to others. So every user can easily contact with all relevant
-                    users.Which will decrease miss communication.
+                    More of your work is done through SUMS, it will decrease paper work,
+                    because of online sending system. Store all of your information
+                    in a
                 </p>
                 <div class="row">
                     <div class="col-sm-1 col-1">
                         <i class="fa-solid fa-check"></i>
                     </div>
                     <div class="col-sm-10 col-10">
-                        <p>Unlimited users</p>
+                        <p>Unlimited Cloud Storage</p>
                     </div>
                 </div>
                 <div class="row">
@@ -179,7 +179,7 @@
                         <i class="fa-solid fa-check"></i>
                     </div>
                     <div class="col-sm-10 col-10">
-                        <p>Relevant connections</p>
+                        <p>Realtime Communication</p>
                     </div>
                 </div>
                 <div class="row">
@@ -187,7 +187,7 @@
                         <i class="fa-solid fa-check"></i>
                     </div>
                     <div class="col-sm-10 col-10">
-                        <p>Live Communication</p>
+                        <p>Send & Receive online files</p>
                     </div>
                 </div>
             </div>
@@ -221,7 +221,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-1 col-1">
+                    <div class="col-sm-1 col-1">cls
+
                         <i class="fa-solid fa-check"></i>
                     </div>
                     <div class="col-sm-10 col-10">

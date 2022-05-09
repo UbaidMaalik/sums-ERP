@@ -26,11 +26,12 @@
 }
 .navbar .nav-link {
   color: var(--black1);
-  font-weight: 600;
+  font-weight: 500;
   border-bottom: 2px solid transparent;
   transition: 0.5s;
-  margin-left: 30px;
+  margin-left: 20px;
   text-align: center;
+  font-size: 1rem;
 }
 .navbar .navbar-nav {
   margin-left: 40px;
@@ -109,9 +110,11 @@
 }
 /* Banner2 */
 .banner2 {
-  width: 100%;
-  height: 100%;
-  padding: 80px;
+  width: 104.5%;
+  height: 93vh !important;
+  margin-left: -13px;
+  margin-top: -5px;
+  padding: 155px 50px 50px 50px;
   background-color: var(--darkblue);
 }
 .banner2 img {
@@ -126,7 +129,7 @@
   height: 500px;
   background-color: rgb(108, 136, 161);
   position: absolute;
-  margin-left: 70px;
+  margin-left: 80px;
   margin-top: -60px;
 }
 .banner2 h4 {
@@ -138,11 +141,18 @@
 }
 /* Banner3 */
 .banner3 {
-  width: 100%;
-  height: 100%;
+  width: 104.5%;
+  height: 93vh !important;
+  margin-left: -13px;
   color: #fff;
-  padding: 40px 50px 90px 40px;
+  padding: 90px 50px 150px 40px;
   background-color: var(--darkblue);
+  margin-top: -5px;
+}
+#navbarNav .shadow{
+  background-color: var(--darkblue);
+  width: 98%;
+  padding: 0;
 }
 .banner3 #cards {
   margin-top: 400px;
@@ -597,12 +607,24 @@
   color: var(--white);
   font-weight: 600;
   font-size: 1.2rem;
+  transition: 0.3s;
 }
 .footer .span h6 {
   font-size: 1.2rem;
 }
 .bottomText {
   text-align: right !important;
+}
+.bottombar a:hover {
+  color: var(--darkblue);
+}
+/* moreAbout */
+.moreAbout {
+  margin-top: 100px;
+}
+.moreAbout .h2 {
+  font-weight: 700;
+  margin-left: 40px;
 }
 /* Mobile View */
 @media only screen and (max-width: 767px) {
@@ -649,9 +671,15 @@
   }
   .banner2 img {
     margin-top: 10px;
+    width: 100%;
+    height: 100%;
   }
   .banner2 .line {
     display: none;
+  }
+  .banner3 {
+    width: 100%;
+    height: 100%;
   }
   .banner3 a {
     margin-top: 4.5em;
