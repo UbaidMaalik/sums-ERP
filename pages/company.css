@@ -32,6 +32,12 @@
   margin-right: 150px;
   margin-top: -15px;
 }
+.company #academicline{
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 .company p {
   text-align: center;
   color: var(--white);
@@ -39,7 +45,7 @@
 }
 .company .img {
   width: 100%;
-  height: 100%;
+  height: 350px;
   margin-left: 100px;
 }
 .company .arrow2 {
@@ -73,11 +79,18 @@
 .place2 h3 {
   font-size: 3rem;
   font-weight: 600;
-  margin-top: 50px;
+  margin-top: 40px;
+}
+.place2 i {
+  font-size: 1.3rem;
+  margin-top: 4px;
 }
 .place2 p {
   font-size: 1.7rem;
-  margin-top: 20px;
+}
+.place2 i {
+  font-size: 2rem;
+  color: var(--sky);
 }
 .place2 #erp {
   height: 500px;
@@ -94,9 +107,75 @@
   margin-top: 2rem;
   margin-left: 7.5rem;
 }
+/* Work */
+.work {
+  margin-top: 150px;
+}
+.work .img {
+  width: 470px;
+  height: 450px;
+}
+.work .arrow {
+  width: 250px;
+  margin-left: -40px;
+  margin-top: 30px;
+}
+.work h3 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.work i {
+  font-size: 2rem;
+  color: var(--sky);
+}
+.work p {
+  font-size: 1.7rem;
+}
+.work .establish {
+  margin-top: 150px;
+}
+.work .increase {
+  margin-top: 150px;
+}
+/* stadards */
+.stadards {
+  width: 100%;
+  height: 100%;
+  padding: 70px;
+  background-color: rgb(23, 44, 64);
+  margin-top: 100px;
+}
+.stadards h4 {
+  font-size: 2.3rem;
+  color: var(--white);
+  font-weight: 600;
+}
+.stadards p {
+  font-size: 1.8rem;
+  color: var(--white);
+}
+.stadards .slide {
+  margin-top: 100px;
+}
+.stadards .slide h2 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: var(--white);
+}
+.stadards .slide a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.3rem;
+}
+.stadards .carousel-inner img {
+  height: 310px;
+}
 
 /* Mobile View */
 @media only screen and (max-width: 767px) {
+  .mobile {
+    flex-direction: column-reverse;
+  }
   .company h2 {
     font-size: 2.4em;
   }
@@ -106,6 +185,9 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  .company #academicline{
+    height: 25px;
   }
   .company p {
     font-size: 1rem;
@@ -120,6 +202,94 @@
   }
   /* Place2 */
   .place2 #erp {
-    height: 200px;
+    height: 300px;
+    margin-left: 6rem;
+  }
+  .place2 #erp5 {
+    height: 100px;
+    position: absolute;
+    margin-top: -7rem;
+    margin-left: 2.2rem;
+  }
+  .place2 h3 {
+    font-size: 2rem;
+    padding: 10px;
+  }
+  .place2 {
+    margin-top: 20px;
+  }
+  .place2 i {
+    font-size: 1.3rem;
+    margin-top: 10px;
+  }
+  .place2 p {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+  .place2 #arrow {
+    height: 100px;
+    position: absolute;
+    margin-top: -16rem;
+    margin-left: 3.5rem;
+  }
+  .work {
+    margin-top: 50px;
+  }
+  .work .img {
+    width: 300px;
+    height: 300px;
+  }
+  .work h3 {
+    font-size: 1.5rem;
+  }
+  .work .arrow {
+    width: 150px;
+    margin-left: 70px;
+    transform: rotate(-90deg);
+  }
+  .work i {
+    font-size: 1.3rem;
+    margin-top: 4px;
+  }
+  .text {
+    margin-left: 40px;
+  }
+  .work p {
+    font-size: 1.1rem;
+  }
+  .work .establish {
+    margin-top: 50px;
+  }
+  .work .increase {
+    margin-top: 50px;
+  }
+  .stadards h4 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .stadards p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .stadards .paragraph {
+    width: 300px;
+    text-align: center;
+    margin-left: 2.6rem;
+    font-size: 1rem;
+  }
+  .stadards .carousel-inner img {
+    height: 250px;
+  }
+  .stadards .slide h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .stadards .more {
+    margin-left: 8rem;
+  }
+  .stadards #icon {
+    height: 60px;
   }
 }

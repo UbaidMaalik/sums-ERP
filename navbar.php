@@ -20,7 +20,7 @@
   <div class="container">
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand homebanner" href="./home.php">
           <img src="./images/sumserp.png" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,20 +28,30 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link feature" href="#">FEATURES</a>
+            <li class="nav-item dropdown dropdown-mega position-static">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">FEATURES</a>
+              <div class="dropdown-menu shadow">
+                <div class="container p-0 py-0">
+                  <?php require_once "banner/banner3.php"; ?>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown dropdown-mega position-static">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">DOCS</a>
+              <div class="dropdown-menu shadow">
+                <div class="container p-0 py-0">
+                  <?php require_once "banner/banner2.php"; ?>
+                </div>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link docs" href="#">DOCS</a>
+              <a class="nav-link" href="./company.php">COMPANY</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">COMPANY</a>
+              <a class="nav-link" href="./pricing.php">PRICING</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PRICING</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">HOW TO</a>
+              <a class="nav-link" href="./how.php">HOW TO</a>
             </li>
           </ul>
           <a href="#" class="btn">DEMO</a>

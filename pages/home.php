@@ -17,15 +17,8 @@
 
 <body>
   <?php require_once "../navbar.php"; ?>
-  <div id="banner1">
-    <?php require_once "../banner/banner.php"; ?>
-  </div>
-  <div class="container banner2" id="banner2">
-    <?php require_once "../banner/banner2.php"; ?>
-  </div>
-  <div class="container banner3" id="banner3">
-    <?php require_once "../banner/banner3.php"; ?>
-  </div>
+
+  <?php require_once "../banner/banner.php"; ?>
 
   <div class="container" id="home">
     <div class="row">
@@ -100,7 +93,7 @@
       </div>
       <div class="col-sm-3 mt-5">
         <h4>MORE</h4>
-        <a href="#">SEE <br> ALL FEATURES</a href="#">
+        <a href="./features.php">SEE <br> ALL FEATURES</a>
         <img src="./images/more.png">
       </div>
     </div>
